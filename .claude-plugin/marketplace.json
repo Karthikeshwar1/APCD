@@ -1,0 +1,12 @@
+{
+  "name": "apcd",
+  "description": "APCD: concise, resumable project docs for AI coding agents",
+  "owner": { "name": "APCD contributors" },
+  "plugins": [
+    {
+      "name": "apcd",
+      "source": "./",
+      "description": "Concise project docs and a Progress log so any new AI coding session can pick up where you left off."
+    }
+  ]
+}
