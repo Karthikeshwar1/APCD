@@ -1,8 +1,7 @@
 {
   "name": "apcd",
-  "version": "0.1.0",
-  "description": "Concise project docs and a Progress log so any new AI coding session can pick up where you left off.",
-  "author": { "name": "APCD contributors" },
-  "license": "MIT",
-  "keywords": ["docs", "context", "resume", "AGENTS.md", "CLAUDE.md", "handoff"]
+  "version": "0.2.0",
+  "description": "APCD (Auto-Project-Context-Doc): concise project docs and a Progress list so any new AI coding session can pick up where you left off.",
+  "author": { "name": "Karthikeshwar1" },
+  "license": "MIT"
 }
