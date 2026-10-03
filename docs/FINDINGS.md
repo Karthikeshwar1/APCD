@@ -217,3 +217,6 @@ Rules are advisory; a model can skip them (small models skip more). Gemini CLI r
 
 MIT
 ````
+
+## Addendum: v22 (shipped)
+v21 with "Keep the template headings verbatim" replaced by "Omit any section with nothing real to put in it: no placeholders, no filler." Haiku on a, d, e, f: all assertions pass (e 182/182) and the empty headings from problem 9 are gone. Residual: a filler Next item on repos with no TODOs (every Next-clause tried backfired, see problem 5).

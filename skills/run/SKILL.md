@@ -17,7 +17,7 @@ Set up or refresh this project's docs so a new session can pick up where the las
 - Concise, under ~150 lines, link don't duplicate, dates `YYYY-MM-DD`, markdown only, nothing personal. Remove docs entries whose file doesn't exist; keep only the last 3 Done items (git has them).
 - Never delete facts. Never `@`-import topic docs.
 - Edit docs only, never code. Never git commit. Never invent.
-- Keep the template headings verbatim.
+- Omit any section with nothing real to put in it: no placeholders, no filler.
 
 ## Entry file
 ```markdown

@@ -17,6 +17,6 @@ It writes one entry file, `CLAUDE.md` (or `AGENTS.md` if you use other tools): D
 
 ## Limits
 
-Rules are advisory; a model can skip them (small models skip more). Gemini CLI reads `GEMINI.md`, which the skill points at `AGENTS.md`. Aider needs `read: AGENTS.md` in `.aider.conf.yml`; add it yourself.
+Rules are advisory; a model can skip them (small models skip more, and may add a filler Next item on a repo with no TODOs). Gemini CLI reads `GEMINI.md`, which the skill points at `AGENTS.md`. Aider needs `read: AGENTS.md` in `.aider.conf.yml`; add it yourself.
 
 MIT
