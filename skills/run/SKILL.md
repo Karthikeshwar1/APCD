@@ -14,8 +14,8 @@ Set up or refresh this project's docs so a new session can pick up where the las
 5. Adopt, don't duplicate: keep existing docs. If a progress file already exists (e.g. `docs/state/STATUS.md`), Progress is only `- Status: <its path>`.
 
 ## Rules
-- Concise, under ~150 lines, link don't duplicate, dates `YYYY-MM-DD`, markdown only, nothing personal. Remove docs entries whose file doesn't exist; keep only the last 3 Done items (git has them).
-- Never delete facts. Never `@`-import topic docs.
+- Concise, under ~150 lines, link don't duplicate, dates `YYYY-MM-DD`, markdown only. Never write secrets, keys, emails or personal paths. Remove docs entries whose file doesn't exist; keep only the last 3 Done items (git has them).
+- Never delete facts (dead ends in Notes are facts). Never `@`-import topic docs.
 - Edit docs only, never code. Never git commit. Never invent.
 - Omit any section with nothing real to put in it: no placeholders, no filler.
 
@@ -37,4 +37,5 @@ Set up or refresh this project's docs so a new session can pick up where the las
 - Next:
   1. <item>
 - Done: <item> (YYYY-MM-DD)
+- Notes: <dead ends, surprises> (YYYY-MM-DD)
 ```
