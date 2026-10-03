@@ -1,5 +1,6 @@
 {
   "name": "apcd",
+  "description": "APCD: concise, resumable project docs for AI coding agents",
   "owner": { "name": "Karthikeshwar1" },
   "plugins": [{ "name": "apcd", "source": "./" }]
 }
