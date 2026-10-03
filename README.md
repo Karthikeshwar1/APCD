@@ -17,6 +17,6 @@ It writes one entry file, `CLAUDE.md` (or `AGENTS.md` if you use other tools): D
 
 ## Limits
 
-Rules are advisory; a model can skip them (small models skip more, and may add a filler Next item on a repo with no TODOs). Gemini CLI reads `GEMINI.md`, which the skill points at `AGENTS.md`. Aider needs `read: AGENTS.md` in `.aider.conf.yml`; add it yourself.
+Commit your docs before running it, and review the diff. Rules are advisory and small models skip them more: on a very large hand-written entry file, haiku once in three runs rewrote it without keeping the copy (sonnet kept all facts). It may also add a filler Next item on repos with no TODOs. Gemini CLI reads `GEMINI.md`, which the skill points at `AGENTS.md`. Aider needs `read: AGENTS.md` in `.aider.conf.yml`; add it yourself.
 
 MIT

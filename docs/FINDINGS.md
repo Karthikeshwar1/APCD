@@ -220,3 +220,7 @@ MIT
 
 ## Addendum: v22 (shipped)
 v21 with "Keep the template headings verbatim" replaced by "Omit any section with nothing real to put in it: no placeholders, no filler." Haiku on a, d, e, f: all assertions pass (e 182/182) and the empty headings from problem 9 are gone. Residual: a filler Next item on repos with no TODOs (every Next-clause tried backfired, see problem 5).
+
+## Addendum: v23 (shipped)
+Final regression on v22 found two gaps: a secret-looking key copied into the entry (g) and a dead-end Notes fact dropped on re-run (f), because v22 removed the Notes line. v23 restores `- Notes:` in the template and adds "Never write secrets, keys, emails or personal paths." Re-test (haiku): f 2/2, g 2/2, a, b pass. Chain v22: S1 0/5, S2 5/5, S3 5/5, 0 commits.
+Open risk: scenario e (182 facts) on haiku is flaky: v23 gave 180, 182, 0 of 182. Rewording step 3 to a line-count trigger (v24) was worse, 0/3, so it was reverted. Mitigation is in the README: commit first, review the diff. Total eval runs about 100.
