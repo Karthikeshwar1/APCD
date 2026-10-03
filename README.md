@@ -76,7 +76,7 @@ Empty sections are omitted, not filled with placeholders.
 
 - Commit your docs before running it, then review the diff.
 - Rules are advisory text. Small models skip them more: on a very large hand-written entry file, haiku once in three runs rewrote it without keeping the copy (sonnet kept all facts). It may also add a filler Next item on repos with no TODOs.
-- Tested with headless Claude runs on fixtures. Evidence and method: [docs/FINDINGS.md](docs/FINDINGS.md).
+- Tested with headless Claude runs on fixtures.
 
 ## License
 
