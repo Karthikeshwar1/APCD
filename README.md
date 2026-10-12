@@ -55,6 +55,10 @@ The entry file stays under ~150 lines:
 
 Empty sections are omitted, not filled with placeholders.
 
+## Auto-refresh hook
+
+Once a project has APCD docs, a tiny hook (plain `sh`, no dependencies) keeps Progress current. If a session made 2+ code edits and never touched the entry file or `docs/`, Claude gets one nudge to make the smallest edit that keeps Progress true, or to change nothing. It stays silent otherwise. Set `APCD_HOOK=off` to disable.
+
 ## Safe by design
 
 - Edits docs only: never your code, never `git commit`.
